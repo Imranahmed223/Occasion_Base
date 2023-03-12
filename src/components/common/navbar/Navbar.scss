@@ -1,0 +1,23 @@
+@import "../../../scss/variable";
+
+.navbar {
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background-color: $light-gray;
+    &-logo {
+      & > img {
+        width: 13.7rem;
+      }
+    }
+    &-profile {
+      & > img {
+        height: 4.7rem;
+        width: 4.7rem;
+        border-radius: 50%;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import "../../../scss/variable";
+
+.footer {
+  background-color: $light-gray;
+  padding: 5rem 2rem;
+  &-container {
+    display: flex;
+    padding: 2rem 0rem;
+    &-left {
+      width: 60%;
+      & > * {
+        &:not(:last-child) {
+          margin-bottom: 5rem;
+        }
+      }
+    }
+
+    &-right {
+      display: flex;
+      flex-direction: column;
+      & > * {
+        &:not(:last-child) {
+          margin-bottom: 1.8rem;
+          font-size: 1.3rem;
+          color: black;
+          cursor: pointer;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

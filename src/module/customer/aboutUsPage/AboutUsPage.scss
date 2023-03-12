@@ -1,0 +1,10 @@
+.aboutus {
+  &-content {
+    & > * {
+      margin: 3rem 0rem;
+    }
+    & >img  {
+        width: 99%;
+    }
+  }
+}
