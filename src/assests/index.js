@@ -7,8 +7,10 @@ import aboutsecond from "./aboutus/second.png";
 import cardImage from "./card/card.png";
 import cardImage1 from "./card/card1.jpg";
 import cardImage2 from "./card/card2.webp";
-// exports
 
+import occasionView from "./viewPage/occasion.png";
+
+// exports
 export {
   logo,
   profile,
@@ -17,4 +19,5 @@ export {
   cardImage,
   cardImage1,
   cardImage2,
+  occasionView,
 };

@@ -7,6 +7,8 @@ import {
   HomePage,
   SearchPage,
   SupportPage,
+  ViewVender,
+  ViewOccasion,
 } from "./module/customer";
 
 const Routess = () => {
@@ -20,6 +22,8 @@ const Routess = () => {
             <Route path="/faq" element={<Faq />} />
             <Route path="/aboutus" element={<AboutUsPage />} />
             <Route path="/search" element={<SearchPage />} />
+            <Route path="/viewvender" element={<ViewVender />} />
+            <Route path="/viewoccasion" element={<ViewOccasion />} />
           </Route>
         </Routes>
       </Router>

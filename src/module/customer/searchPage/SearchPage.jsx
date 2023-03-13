@@ -18,14 +18,14 @@ const SearchPage = () => {
               views="25k"
             />
             <Card
-              image={cardImage}
+              image={cardImage1}
               location="London"
               name="Birthday Party"
               description="Beautiful VW Campervan Operating Cash Bar"
               views="25k"
             />
             <Card
-              image={cardImage}
+              image={cardImage2}
               location="London"
               name="Birthday Party"
               description="Beautiful VW Campervan Operating Cash Bar"

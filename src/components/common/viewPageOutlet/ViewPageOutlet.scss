@@ -1,0 +1,27 @@
+@import "../../../scss/variable";
+
+.viewpage {
+  &-hero {
+    // height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../assests/viewPage/occasion.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    // background-size: 100%;
+    height: 700px;
+    &-content {
+      & > h1 {
+        color: $primary;
+        font-weight: 800;
+        font-size: 4rem;
+      }
+      & > p {
+        color: white;
+        margin-top: 2rem;
+        font-size: 1.9rem;
+      }
+    }
+  }
+}
