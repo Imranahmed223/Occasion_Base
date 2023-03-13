@@ -1,7 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { UserLayout } from "./layout";
-import { AboutUsPage, Faq, HomePage, SupportPage } from "./module/customer";
+import {
+  AboutUsPage,
+  Faq,
+  HomePage,
+  SearchPage,
+  SupportPage,
+} from "./module/customer";
 
 const Routess = () => {
   return (
@@ -13,6 +19,7 @@ const Routess = () => {
             <Route path="/support" element={<SupportPage />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/aboutus" element={<AboutUsPage />} />
+            <Route path="/search" element={<SearchPage />} />
           </Route>
         </Routes>
       </Router>
